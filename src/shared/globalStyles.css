@@ -1,0 +1,15 @@
+.screen-container {
+  width: calc(100% - 100px);
+  height: 100%;
+  background-color: black;
+  /* background-image: url("bg.png"); */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center; /* Center the image */
+  backdrop-filter: 10%;
+  opacity: 10;
+  
+}
+
+.flex {
+  display: flex;
+}

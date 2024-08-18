@@ -1,0 +1,38 @@
+a {
+    text-decoration: none !important;
+}
+
+.btn-body{
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    color:azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px auto;
+    transition: all 0.2s ease;
+    background-color:rgb(34, 33, 33);
+}
+
+.btn-body:hover{
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+    height: 80px;
+    width: 80px;
+    color:azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px auto;
+    transition: all 0.2s ease;
+    background-color:black;
+}
+
+.btn-title{
+    margin: 4px auto;
+    font-weight: 600;
+    font-size: 14px;
+}
