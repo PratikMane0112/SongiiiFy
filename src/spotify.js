@@ -10,7 +10,7 @@ export const loginEndpoint = `${authEndpoint}client_id=${clientId}&redirect_uri=
 )}&response_type=token&show_dialog=true`;
 
 const apiClient = axios.create({
-  baseURL: REACT_APP_SPOTIFY_LOCAL_REDIRECT_URI || REACT_APP_SPOTIFY_VERCEL_REDIRECT_URI,
+  baseURL: process.env.REACT_APP_SPOTIFY_LOCAL_REDIRECT_URI || process.env.REACT_APP_SPOTIFY_VERCEL_REDIRECT_URI,
 });
 
 export const setClientToken = (token) => {
