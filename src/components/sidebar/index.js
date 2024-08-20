@@ -21,7 +21,7 @@ export default function Sidebar() {
   return (
     <div className="sidebar-container">
       <img src={image} className="profile-img" alt="profile" />
-      <div className="Btn">
+      <div className="  ">
         <SidebarButton title="Library" to="/" icon={<IoLibrary />} />
         {/* <SidebarButton title="Feed" to="/feed" icon={<MdSpaceDashboard />} />
         <SidebarButton title="Trending" to="/trending" icon={<FaGripfire />} />
@@ -33,7 +33,7 @@ export default function Sidebar() {
         /> */}
        
       </div>
-      {/* <SidebarButton title="Sign Out" to="" icon={<FaSignOutAlt />} /> */}
+      <SidebarButton title="Sign Out" to="/logout" icon={<FaSignOutAlt />} />
     </div>
   );
 }

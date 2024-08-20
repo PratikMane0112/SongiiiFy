@@ -80,3 +80,11 @@
   padding: 8%;
   transition: 0.5s ease;
 }
+
+/* Media Query for Mobile Screens */
+@media (max-width: 768px) {
+  .playlist-card {
+    width: 130px; /* Adjust width to display two cards in a row */
+    height: auto;
+  }
+}

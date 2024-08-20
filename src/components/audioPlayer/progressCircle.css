@@ -22,3 +22,45 @@ image.active {
     transform: rotate(359deg);
   }
 }
+/* Media Query for Desktop */
+@media (min-width: 768px) {
+  .player-body {
+    height: 40%; /* Set height for desktop */
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .player-left-body {
+    width: 37%;
+  }
+
+  .player-right-body {
+    width: 63%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .song-title {
+    font-size: 58px; /* Font size for desktop */
+  }
+
+  .song-artist {
+    font-size: 14px; /* Font size for desktop */
+  }
+
+  .song-duration {
+    width: 50%;
+    justify-content: space-between;
+  }
+
+  .duration {
+    font-size: 20px; /* Font size for desktop */
+  }
+}
+@media (max-width: 768px) {
+  .progress-circle {
+    justify-content: center;
+    align-items: center;
+  }
+}

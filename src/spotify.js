@@ -22,5 +22,5 @@ export const setClientToken = (token) => {
     return config;
   });
 };
-
+ 
 export default apiClient;
