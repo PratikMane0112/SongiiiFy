@@ -80,11 +80,41 @@
   padding: 8%;
   transition: 0.5s ease;
 }
-
-/* Media Query for Mobile Screens */
+/* Media Query for Mobile Screens (Up to 768px) */
 @media (max-width: 768px) {
   .playlist-card {
     width: 120px; /* Adjust width to display two cards in a row */
     height: auto;
   }
 }
+@media (max-width: 360px) {
+  .playlist-card {
+    width: 90px; /* Adjust width to display two cards in a row */
+    height: auto;
+  }
+}
+
+/* Media Query for Tablets (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .playlist-card {
+    width: 180px; /* Adjust width to display three cards in a row */
+    height: auto;
+  }
+}
+
+/* Media Query for Small Desktops (1025px to 1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .playlist-card {
+    width: 220px; /* Adjust width to display four cards in a row */
+    height: auto;
+  }
+}
+
+/* Media Query for Large Desktops (1281px and above) */
+@media (min-width: 1281px) {
+  .playlist-card {
+    width: 280px; /* Adjust width to display five cards in a row */
+    height: auto;
+  }
+}
+
