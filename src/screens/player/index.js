@@ -29,6 +29,7 @@ export default function Player() {
   }, [currentIndex, tracks]);
 
   return (
+    <>
     <div className="screen-container flex">
       <div className="left-player-body">
         <AudioPLayer
@@ -44,5 +45,6 @@ export default function Player() {
         <Queue tracks={tracks} setCurrentIndex={setCurrentIndex} />
       </div>
     </div>
+  </>
   );
 }
